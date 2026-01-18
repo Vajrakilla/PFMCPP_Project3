@@ -196,53 +196,53 @@ Part 1b - Step 2: Assignment
         c) pick properties that can eventually be represented with 
         'int float double bool char std::string'.
 
-Thing 1)
+Thing 1) Desktop computer
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) amount of RAM
+    2) number of storage drives
+    3) number of fans
+    4) how fast it can compute
+    5) amount of usb ports
 3 things it can do:
-    1)
-    2)
-    3)
+    1) code audio programs
+    2) browse the internet
+    3) store and run programs
 
-Thing 2)
+Thing 2) Security camera
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) camera resolution
+    2) size of enclosure
+    3) focal range
+    4) number of pivot axes
+    5) shutter speed
 3 things it can do:
-    1)
-    2)
-    3)
+    1) motion tracking
+    2) record video
+    3) send video data to external servers
 
-Thing 3)
+Thing 3) Synthesizer
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) number of oscilators
+    2) number of LFO's
+    3) range of pitch
+    4) number of voices
+    5) number of modulation options
 3 things it can do:
-    1)
-    2)
-    3)
+    1) make interesting noises
+    2) send and recieve midi and CV signals
+    3) switch modes of synthesis 
 
-Thing 4)
+Thing 4) Restaurant kitchen
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) amount of available counter space
+    2) number of pots and pans 
+    3) number of cupboards
+    4) number of stove burners
+    5) volume of customers per hour
 3 things it can do:
-    1)
-    2)
-    3)
+    1) cook food
+    2) prep ingredients
+    3) store food
 */
 
 /*
