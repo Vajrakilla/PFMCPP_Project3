@@ -198,11 +198,11 @@ Part 1b - Step 2: Assignment
 
 Thing 1) Desktop computer
 5 properties:
-    1) amount of RAM
-    2) number of storage drives
-    3) number of fans
-    4) how fast it can compute
-    5) amount of usb ports
+    1) amount of RAM (int)
+    2) number of storage drives (int)
+    3) number of fans (int)
+    4) how fast it can compute (float)
+    5) amount of usb ports (int)
 3 things it can do:
     1) code audio programs
     2) browse the internet
@@ -210,11 +210,11 @@ Thing 1) Desktop computer
 
 Thing 2) Security camera
 5 properties:
-    1) camera resolution
-    2) size of enclosure
-    3) focal range
-    4) number of pivot axes
-    5) shutter speed
+    1) camera resolution (double)
+    2) size of enclosure (float)
+    3) focal range (float)
+    4) number of pivot axes (int)
+    5) shutter speed (int)
 3 things it can do:
     1) motion tracking
     2) record video
@@ -222,11 +222,11 @@ Thing 2) Security camera
 
 Thing 3) Synthesizer
 5 properties:
-    1) number of oscilators
-    2) number of LFO's
-    3) range of pitch
-    4) number of voices
-    5) number of modulation options
+    1) number of oscilators (int)
+    2) number of LFO's (int)
+    3) range of pitch (double)
+    4) number of voices (int)
+    5) number of modulation options (int)
 3 things it can do:
     1) make interesting noises
     2) send and recieve midi and CV signals
@@ -234,11 +234,11 @@ Thing 3) Synthesizer
 
 Thing 4) Restaurant kitchen
 5 properties:
-    1) amount of available counter space
-    2) number of pots and pans 
-    3) number of cupboards
-    4) number of stove burners
-    5) volume of customers per hour
+    1) amount of available counter space (float)
+    2) number of pots and pans (int)
+    3) number of cupboards (float)
+    4) number of stove burners (int)
+    5) volume of customers per hour (float)
 3 things it can do:
     1) cook food
     2) prep ingredients
