@@ -340,10 +340,10 @@ Define an object that is made of 5 sub-objects.
 Thing 10) Warehouse
 5 properties:
     1) Forklift
-    2) Shipping
-    3) Logistics
-    4) Packaging
-    5) Receiving
+    2) Shipping Department
+    3) Logistics Department
+    4) Packaging Department
+    5) Receiving Department
 3 things it can do:
     1) Ship orders
     2) Receive retruns
@@ -434,65 +434,65 @@ example:
     You will need to provide 5 properties and 3 member functions of that Engine object in plain English.
     Remember to pick properties that can be represented with 'int float double bool char std::string'.
 
-Thing 5)
+Thing 5) Forklift
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) Charge left in battery (float)
+    2) Number of safety features (int)
+    3) Height forks can rise (double)
+    4) Weight forks can lift (float)
+    5) Number of instruments in instrument cluster (int)
 3 things it can do:
-    1)
-    2)
-    3)
+    1) Drive to loacations within the facility
+    2) Add or remove heavy objects from storage racks
+    3) Stop when collision is likely to occur
 
-Thing 6)
+Thing 6) Shipping Department
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) Number of trailers per day (int)
+    2) Number of packages outgoing (int)
+    3) Number of shipping boxes (int)
+    4) Amount of shipping protection (bubblewrap, paper, etc...) measured in cm (float)
+    5) Amount of tape in cm (float)
 3 things it can do:
-    1)
-    2)
-    3)
+    1) Prints package labels
+    2) Load trailers with packages
+    3) Create shipment tracking
 
-Thing 7)
+Thing 7) Logistics Department
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) Number of offices (int)
+    2) Number of emails per day (int)
+    3) Amount of fuel for each shipment (double)
+    4) Weight of each package (float)
+    5) Number of each type of item stored in warehouse (int)
 3 things it can do:
-    1)
-    2)
-    3)
+    1) Negotiate shipping rates with local carriers
+    2) Calculate shipping time
+    3) Manage inventory
 
-Thing 8)
+Thing 8) Packaging Department
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) Number of packages packed per hour (float)
+    2) Number of employees (int)
+    3) Number of scanners on assembly line (int)
+    4) Length of roller conveyor in meters (double)
+    5) Ammonut of sorting space (float)
 3 things it can do:
-    1)
-    2)
-    3)
+    1) Place items to be shipped into boxes
+    2) Continually update system inventory and outgoing status
+    3) Order supplies from shipping department
 
-Thing 9)
+Thing 9) Recieving Department
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) Number of returned packages per day (int)
+    2) Number of sorting bin types (int)
+    3) Number of package scanners (int)
+    4) Number of boxcutters (int)
+    5) Number of recycling recepticles (int)
 3 things it can do:
-    1)
-    2)
-    3)
+    1) Take in returned packages
+    2) Recycle damaged goods
+    3) Track received returns and determine condition
  */
 
 /*
