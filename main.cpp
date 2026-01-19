@@ -196,7 +196,7 @@ Part 1b - Step 2: Assignment
         c) pick properties that can eventually be represented with 
         'int float double bool char std::string'.
 
-Thing 1) Desktop computer
+
 5 properties:
     1) amount of RAM (int)
     2) number of storage drives (int)
@@ -208,7 +208,7 @@ Thing 1) Desktop computer
     2) browse the internet
     3) store and run programs
 
-Thing 2) Security camera
+
 5 properties:
     1) camera resolution (double)
     2) size of enclosure (float)
@@ -220,7 +220,7 @@ Thing 2) Security camera
     2) record video
     3) send video data to external servers
 
-Thing 3) Synthesizer
+
 5 properties:
     1) number of oscilators (int)
     2) number of LFO's (int)
@@ -232,7 +232,7 @@ Thing 3) Synthesizer
     2) send and recieve midi and CV signals
     3) switch modes of synthesis 
 
-Thing 4) Restaurant kitchen
+
 5 properties:
     1) amount of available counter space (float)
     2) number of pots and pans (int)
@@ -337,7 +337,7 @@ Define an object that is made of 5 sub-objects.
     These 5 sub-objects will not be defined using Primitives, but instead will be their own UDTs 
     you'll define these 5 sub-objects in Part 1d.
 
-Thing 10) Warehouse
+
 5 properties:
     1) Forklift
     2) Shipping Department
@@ -434,7 +434,7 @@ example:
     You will need to provide 5 properties and 3 member functions of that Engine object in plain English.
     Remember to pick properties that can be represented with 'int float double bool char std::string'.
 
-Thing 5) Forklift
+
 5 properties:
     1) Charge left in battery (float)
     2) Number of safety features (int)
@@ -446,7 +446,7 @@ Thing 5) Forklift
     2) Add or remove heavy objects from storage racks
     3) Stop when collision is likely to occur
 
-Thing 6) Shipping Department
+
 5 properties:
     1) Number of trailers per day (int)
     2) Number of packages outgoing (int)
@@ -458,7 +458,7 @@ Thing 6) Shipping Department
     2) Load trailers with packages
     3) Create shipment tracking
 
-Thing 7) Logistics Department
+
 5 properties:
     1) Number of offices (int)
     2) Number of emails per day (int)
@@ -470,7 +470,7 @@ Thing 7) Logistics Department
     2) Calculate shipping time
     3) Manage inventory
 
-Thing 8) Packaging Department
+
 5 properties:
     1) Number of packages packed per hour (float)
     2) Number of employees (int)
@@ -482,7 +482,7 @@ Thing 8) Packaging Department
     2) Continually update system inventory and outgoing status
     3) Order supplies from shipping department
 
-Thing 9) Recieving Department
+
 5 properties:
     1) Number of returned packages per day (int)
     2) Number of sorting bin types (int)
@@ -544,14 +544,18 @@ MOVE THEM to the space below this block comment and put them in numerical order
     I only want to see the 10 UDTs written BELOW this block comment, in numerical order (1 - 10).
     simply CUT and PASTE them in the space provided below:
 */
-
-
-
-
-
-
-
-
+/*
+Thing 1) Desktop computer
+Thing 2) Security camera
+Thing 3) Synthesizer
+Thing 4) Restaurant kitchen
+Thing 5) Forklift
+Thing 6) Shipping Department
+Thing 7) Logistics Department
+Thing 8) Packaging Department
+Thing 9) Recieving Department
+Thing 10) Warehouse
+*/
 /*
 =================
 Part 1d - Step 7: Commit
