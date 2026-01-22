@@ -83,51 +83,51 @@ Main Object: Car Interior
         Name 4 nouns you'll find on the [Sub Object]
             1) paddle shifters
             2) 'cruise control' controls
-            3) 
-            4) 
+            3) horn button
+            4) 'media' controls
         Name 2 actions that the [Sub Object] can do:
             1) adjust cruise control settings.
-            2)
+            2) steer the car
         
     Sub Object: Instrument Cluster
         Name 4 nouns you'll find on the [Sub Object]
-            1)
-            2)
-            3)
-            4)
+            1) speedometer
+            2) tachometer
+            3) gas gauge
+            4) odometer
         Name 3 actions that the [Sub Object] can do:
-            1)
-            2)
-            3)
+            1) display current amount of gas
+            2) display current speed
+            3) alert engine failure
     
     Sub Object: Environment Controls
         Name 3 nouns you'll find on the [Sub Object]
-            1)
-            2)
-            3)
+            1) heat/AC switch
+            2) fan speed control
+            3) heat/cooling control
         Name 3 actions that the [Sub Object] can do:
-            1)
-            2)
-            3)
+            1) change fan speed
+            2) adjust amount of heat into cab
+            3) switch between heat and AC
 
     Sub Object: Infotainment System
         Name 3 nouns you'll find on the [Sub Object]
-            1)
-            2)
-            3)
+            1) radio volume controls
+            2) radio frequency controls
+            3) infotainment type selector
         Name 3 actions that the [Sub Object] can do:
-            1)
-            2)
-            3)
+            1) adjust radio volume
+            2) adjust radio frequency
+            3) switch between AM, FM, AUX, some subscription service
 
     Sub Object: Seat 
         Name 3 nouns you'll find on the [Sub Object]
-            1)
-            2)
-            3)
+            1) Seat forward/backward control
+            2) Seat warmer control
+            3) Recline Control
         Name 2 actions that the [Sub Object] can do:
-            1)
-            2)
+            1) Adjust seat distance from steering wheel
+            2) warm butt
 */
 
 /*
@@ -196,53 +196,16 @@ Part 1b - Step 2: Assignment
         c) pick properties that can eventually be represented with 
         'int float double bool char std::string'.
 
-Thing 1)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
 
-Thing 2)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
 
-Thing 3)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
 
-Thing 4)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
+
+
+
+
+
+
+
 */
 
 /*
@@ -337,17 +300,8 @@ Define an object that is made of 5 sub-objects.
     These 5 sub-objects will not be defined using Primitives, but instead will be their own UDTs 
     you'll define these 5 sub-objects in Part 1d.
 
-Thing 10)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
+
+
  */
 
  /*
@@ -434,65 +388,20 @@ example:
     You will need to provide 5 properties and 3 member functions of that Engine object in plain English.
     Remember to pick properties that can be represented with 'int float double bool char std::string'.
 
-Thing 5)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
 
-Thing 6)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
 
-Thing 7)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
 
-Thing 8)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
 
-Thing 9)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
+
+
+
+
+
+
+
+
+
+
  */
 
 /*
@@ -544,14 +453,127 @@ MOVE THEM to the space below this block comment and put them in numerical order
     I only want to see the 10 UDTs written BELOW this block comment, in numerical order (1 - 10).
     simply CUT and PASTE them in the space provided below:
 */
+/*
+Thing 1) Desktop computer
+    5 properties:
+        1) amount of RAM (int)
+        2) number of storage drives (int)
+        3) number of fans (int)
+        4) how fast it can compute (float)
+        5) amount of usb ports (int)
+    3 things it can do:
+        1) code audio programs
+        2) browse the internet
+        3) store and run programs
+        
+Thing 2) Security camera
+    5 properties:
+        1) camera resolution (double)
+        2) size of enclosure (float)
+        3) focal range (float)
+        4) number of pivot axes (int)
+        5) shutter speed (int)
+    3 things it can do:
+        1) motion tracking
+        2) record video
+        3) send video data to external servers
+        
+Thing 3) Synthesizer
+    5 properties:
+        1) number of oscilators (int)
+        2) number of LFO's (int)
+        3) range of pitch (double)
+        4) number of voices (int)
+        5) number of modulation options (int)
+    3 things it can do:
+        1) make interesting noises
+        2) send and recieve midi and CV signals
+        3) switch modes of synthesis 
 
-
-
-
-
-
-
-
+Thing 4) Restaurant kitchen
+    5 properties:
+        1) amount of available counter space (float)
+        2) number of pots and pans (int)
+        3) number of cupboards (float)
+        4) number of stove burners (int)
+        5) volume of customers per hour (float)
+    3 things it can do:
+        1) cook food
+        2) prep ingredients
+        3) store food
+        
+Thing 5) Forklift
+    5 properties:
+        1) Charge left in battery (float)
+        2) Number of safety features (int)
+        3) Height forks can rise (double)
+        4) Weight forks can lift (float)
+        5) Number of instruments in instrument cluster (int)
+    3 things it can do:
+        1) Drive to loacations within the facility
+        2) Add or remove heavy objects from storage racks
+        3) Stop when collision is likely to occur
+        
+Thing 6) Shipping Department
+    5 properties:
+        1) Number of trailers per day (int)
+        2) Number of packages outgoing (int)
+        3) Number of shipping boxes (int)
+        4) Amount of shipping protection (bubblewrap, paper, etc...) measured in cm (float)
+        5) Amount of tape in cm (float)
+    3 things it can do:
+        1) Prints package labels
+        2) Load trailers with packages
+        3) Create shipment tracking
+        
+Thing 7) Logistics Department
+    5 properties:
+        1) Number of offices (int)
+        2) Number of emails per day (int)
+        3) Amount of fuel for each shipment (double)
+        4) Weight of each package (float)
+        5) Number of each type of item stored in warehouse (int)
+    3 things it can do:
+        1) Negotiate shipping rates with local carriers
+        2) Calculate shipping time
+        3) Manage inventory
+        
+Thing 8) Packaging Department
+    5 properties:
+        1) Number of packages packed per hour (float)
+        2) Number of employees (int)
+        3) Number of scanners on assembly line (int)
+        4) Length of roller conveyor in meters (double)
+        5) Ammonut of sorting space (float)
+    3 things it can do:
+        1) Place items to be shipped into boxes
+        2) Continually update system inventory and outgoing status
+        3) Order supplies from shipping department
+        
+Thing 9) Recieving Department
+    5 properties:
+        1) Number of returned packages per day (int)
+        2) Number of sorting bin types (int)
+        3) Number of package scanners (int)
+        4) Number of boxcutters (int)
+        5) Number of recycling recepticles (int)
+    3 things it can do:
+        1) Take in returned packages
+        2) Recycle damaged goods
+        3) Track received returns and determine condition
+        
+Thing 10) Warehouse
+    5 properties:
+        1) Forklifts
+        2) Shipping Department
+        3) Logistics Department
+        4) Packaging Department
+        5) Receiving Department
+    3 things it can do:
+        1) Ship orders
+        2) Receive retruns
+        3) Perform delivery logistics
+*/
 /*
 =================
 Part 1d - Step 7: Commit
