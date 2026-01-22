@@ -197,52 +197,15 @@ Part 1b - Step 2: Assignment
         'int float double bool char std::string'.
 
 
-5 properties:
-    1) amount of RAM (int)
-    2) number of storage drives (int)
-    3) number of fans (int)
-    4) how fast it can compute (float)
-    5) amount of usb ports (int)
-3 things it can do:
-    1) code audio programs
-    2) browse the internet
-    3) store and run programs
 
 
-5 properties:
-    1) camera resolution (double)
-    2) size of enclosure (float)
-    3) focal range (float)
-    4) number of pivot axes (int)
-    5) shutter speed (int)
-3 things it can do:
-    1) motion tracking
-    2) record video
-    3) send video data to external servers
 
 
-5 properties:
-    1) number of oscilators (int)
-    2) number of LFO's (int)
-    3) range of pitch (double)
-    4) number of voices (int)
-    5) number of modulation options (int)
-3 things it can do:
-    1) make interesting noises
-    2) send and recieve midi and CV signals
-    3) switch modes of synthesis 
 
 
-5 properties:
-    1) amount of available counter space (float)
-    2) number of pots and pans (int)
-    3) number of cupboards (float)
-    4) number of stove burners (int)
-    5) volume of customers per hour (float)
-3 things it can do:
-    1) cook food
-    2) prep ingredients
-    3) store food
+
+
+
 */
 
 /*
@@ -338,16 +301,7 @@ Define an object that is made of 5 sub-objects.
     you'll define these 5 sub-objects in Part 1d.
 
 
-5 properties:
-    1) Forklift
-    2) Shipping Department
-    3) Logistics Department
-    4) Packaging Department
-    5) Receiving Department
-3 things it can do:
-    1) Ship orders
-    2) Receive retruns
-    3) Perform delivery logistics
+
  */
 
  /*
@@ -435,64 +389,19 @@ example:
     Remember to pick properties that can be represented with 'int float double bool char std::string'.
 
 
-5 properties:
-    1) Charge left in battery (float)
-    2) Number of safety features (int)
-    3) Height forks can rise (double)
-    4) Weight forks can lift (float)
-    5) Number of instruments in instrument cluster (int)
-3 things it can do:
-    1) Drive to loacations within the facility
-    2) Add or remove heavy objects from storage racks
-    3) Stop when collision is likely to occur
 
 
-5 properties:
-    1) Number of trailers per day (int)
-    2) Number of packages outgoing (int)
-    3) Number of shipping boxes (int)
-    4) Amount of shipping protection (bubblewrap, paper, etc...) measured in cm (float)
-    5) Amount of tape in cm (float)
-3 things it can do:
-    1) Prints package labels
-    2) Load trailers with packages
-    3) Create shipment tracking
 
 
-5 properties:
-    1) Number of offices (int)
-    2) Number of emails per day (int)
-    3) Amount of fuel for each shipment (double)
-    4) Weight of each package (float)
-    5) Number of each type of item stored in warehouse (int)
-3 things it can do:
-    1) Negotiate shipping rates with local carriers
-    2) Calculate shipping time
-    3) Manage inventory
 
 
-5 properties:
-    1) Number of packages packed per hour (float)
-    2) Number of employees (int)
-    3) Number of scanners on assembly line (int)
-    4) Length of roller conveyor in meters (double)
-    5) Ammonut of sorting space (float)
-3 things it can do:
-    1) Place items to be shipped into boxes
-    2) Continually update system inventory and outgoing status
-    3) Order supplies from shipping department
 
 
-5 properties:
-    1) Number of returned packages per day (int)
-    2) Number of sorting bin types (int)
-    3) Number of package scanners (int)
-    4) Number of boxcutters (int)
-    5) Number of recycling recepticles (int)
-3 things it can do:
-    1) Take in returned packages
-    2) Recycle damaged goods
-    3) Track received returns and determine condition
+
+
+
+
+
  */
 
 /*
@@ -546,15 +455,124 @@ MOVE THEM to the space below this block comment and put them in numerical order
 */
 /*
 Thing 1) Desktop computer
+    5 properties:
+        1) amount of RAM (int)
+        2) number of storage drives (int)
+        3) number of fans (int)
+        4) how fast it can compute (float)
+        5) amount of usb ports (int)
+    3 things it can do:
+        1) code audio programs
+        2) browse the internet
+        3) store and run programs
+        
 Thing 2) Security camera
+    5 properties:
+        1) camera resolution (double)
+        2) size of enclosure (float)
+        3) focal range (float)
+        4) number of pivot axes (int)
+        5) shutter speed (int)
+    3 things it can do:
+        1) motion tracking
+        2) record video
+        3) send video data to external servers
+        
 Thing 3) Synthesizer
+    5 properties:
+        1) number of oscilators (int)
+        2) number of LFO's (int)
+        3) range of pitch (double)
+        4) number of voices (int)
+        5) number of modulation options (int)
+    3 things it can do:
+        1) make interesting noises
+        2) send and recieve midi and CV signals
+        3) switch modes of synthesis 
+
 Thing 4) Restaurant kitchen
+    5 properties:
+        1) amount of available counter space (float)
+        2) number of pots and pans (int)
+        3) number of cupboards (float)
+        4) number of stove burners (int)
+        5) volume of customers per hour (float)
+    3 things it can do:
+        1) cook food
+        2) prep ingredients
+        3) store food
+        
 Thing 5) Forklift
+    5 properties:
+        1) Charge left in battery (float)
+        2) Number of safety features (int)
+        3) Height forks can rise (double)
+        4) Weight forks can lift (float)
+        5) Number of instruments in instrument cluster (int)
+    3 things it can do:
+        1) Drive to loacations within the facility
+        2) Add or remove heavy objects from storage racks
+        3) Stop when collision is likely to occur
+        
 Thing 6) Shipping Department
+    5 properties:
+        1) Number of trailers per day (int)
+        2) Number of packages outgoing (int)
+        3) Number of shipping boxes (int)
+        4) Amount of shipping protection (bubblewrap, paper, etc...) measured in cm (float)
+        5) Amount of tape in cm (float)
+    3 things it can do:
+        1) Prints package labels
+        2) Load trailers with packages
+        3) Create shipment tracking
+        
 Thing 7) Logistics Department
+    5 properties:
+        1) Number of offices (int)
+        2) Number of emails per day (int)
+        3) Amount of fuel for each shipment (double)
+        4) Weight of each package (float)
+        5) Number of each type of item stored in warehouse (int)
+    3 things it can do:
+        1) Negotiate shipping rates with local carriers
+        2) Calculate shipping time
+        3) Manage inventory
+        
 Thing 8) Packaging Department
+    5 properties:
+        1) Number of packages packed per hour (float)
+        2) Number of employees (int)
+        3) Number of scanners on assembly line (int)
+        4) Length of roller conveyor in meters (double)
+        5) Ammonut of sorting space (float)
+    3 things it can do:
+        1) Place items to be shipped into boxes
+        2) Continually update system inventory and outgoing status
+        3) Order supplies from shipping department
+        
 Thing 9) Recieving Department
+    5 properties:
+        1) Number of returned packages per day (int)
+        2) Number of sorting bin types (int)
+        3) Number of package scanners (int)
+        4) Number of boxcutters (int)
+        5) Number of recycling recepticles (int)
+    3 things it can do:
+        1) Take in returned packages
+        2) Recycle damaged goods
+        3) Track received returns and determine condition
+        
 Thing 10) Warehouse
+    5 properties:
+        1) Forklifts
+        2) Shipping Department
+        3) Logistics Department
+        4) Packaging Department
+        5) Receiving Department
+    3 things it can do:
+        1) Ship orders
+        2) Receive retruns
+        3) Perform delivery logistics
 */
 /*
 =================
